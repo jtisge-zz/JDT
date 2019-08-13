@@ -4,6 +4,12 @@
 int main()
 {
   printf("Hello World\n");
+  getinput("\n Enter your name : ");
   getch();
   return 0;
+}
+
+void getinput()
+{
+  scanf("%s",name);
 }
